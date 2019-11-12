@@ -15,5 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/students', 'SectionsController@index');
-Route::get('/sections', 'SectionsController@index');
+Route::get ('/sections', 'SectionsController@index');
+Route::get ('/students', 'SectionsController@students');
